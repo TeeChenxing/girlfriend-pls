@@ -8,9 +8,11 @@ btnYes.addEventListener("click", () => {
     window.location.href = "date.html";
   });
   
+btnYes.style.cursor = "pointer";
 
 button.addEventListener("mouseover", function () {
     button.style.left = `${Math.ceil(Math.random() * 50)}%`;
     button.style.top = `${Math.ceil(Math.random() * 50)}%`;
   });
   
+
